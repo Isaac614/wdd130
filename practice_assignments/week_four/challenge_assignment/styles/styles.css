@@ -1,0 +1,52 @@
+* {
+    background-color: rgb(99, 178, 242);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight:lighter;
+    color: white;
+    text-align: center;
+    width: 35%;
+    margin: 0 auto;
+
+}
+
+h5 {
+    font-size: 23px;
+}
+
+h1, h5 {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.quote {
+    color: white;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list {
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 0 auto;
+    line-height: 30px;
+    width: 70%;
+}
+
+img {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+}
+
+footer p {
+    text-align: center;
+}
