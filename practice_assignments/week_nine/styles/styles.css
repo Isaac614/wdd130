@@ -1,0 +1,30 @@
+img {
+    width: 100%;
+}
+
+h1, h5, p{
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box {
+    background-color: lightblue;
+    font-size: 55px;
+    padding: 0, 75px
+}
+
+#one {
+    grid-column: 1/2;
+}
+
+#two {
+    grid-column: 2/3;
+}
+
+#three {
+    grid-column: 3/4;
+}
