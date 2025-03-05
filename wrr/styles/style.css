@@ -279,6 +279,43 @@ footer .social img {
 }
 
 
+.river-img-left {
+    float: left;
+    width: 500px;
+    border: 10px solid #70D7FF;
+}
+
+.river-img-right {
+    float: right;
+    width: 500px;
+    border: 10px solid #70D7FF; 
+}
+
+.river-content {
+    margin: 100px 20px;
+}
+
+.river-content h2 {
+    text-align: left;
+}
+
+#river-content-right h2 {
+    text-align: right;
+}
+
+section img {
+    margin: 20px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.rating {
+    font-size: 0.75em;
+}
+
+
 /* --primary-color: #F8F0FB;
 --secondary-color: #335C81;
 --accent1-color: #70D7FF;
