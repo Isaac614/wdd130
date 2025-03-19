@@ -5,7 +5,7 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #517bb3   ;
+  --primary-color: #517bb3;
   --secondary-color: #f1f1f1 ;
   --accent1-color: #1b263b;
   --accent2-color: #ff0763;
