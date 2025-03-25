@@ -5,7 +5,7 @@ h1, h2 {
     color: #1b263b;
 }
 
-p, a {
+p, a, input, label {
     font-family: Nunito, sans-serif;
     color: #1b263b;
     text-decoration: none;
@@ -66,12 +66,12 @@ p, a {
     align-items: center;
 }
 
-.projects-button{
+.projects-button {
     grid-column: 1/2;
     justify-self: end;
 }
 
-.contact-button{
+.contact-button {
     grid-column: 2/3;
     margin-right: 0;
     justify-self: start;
@@ -112,6 +112,128 @@ nav a:hover {
     width: 600px;
 }
 
+
+#contact-grid {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 48% 4% 48%;
+    margin-top: 20px;
+}
+
+#contact-details {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    border: 1px solid #ff0763;
+    background-color: #f1f1f1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact-grid h1 {
+    color: #1b263b;
+} 
+
+#contact-grid p {
+    color: #1b263b;
+    font-size: 20px;
+} 
+
+#contact-grid a {
+    color: #ff0763;
+}
+
+#contact-grid a p {
+    color: #ff0763;
+}
+
+#contact-grid a:hover {
+    text-decoration: underline;
+}
+
+#contact-grid img {
+    width: 48px;
+}
+
+#social-platforms {
+    grid-column: 3/4;
+    grid-row: 2/4;
+    background-color: #f1f1f1;
+    border: 1px solid #ff0763;
+}
+
+#social-platforms {
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+
+#social-platforms h1 {
+    text-align: center;
+}
+
+#social-platforms a {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    justify-items: center;
+}
+
+#social-platforms a p {
+    justify-self: left;
+    margin-left: 30px;
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #1b263b; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #517bb3;
+    color: #f1f1f1;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #f1f1f1;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #1b263b;
+    border: 1px solid #ff0763;
+    color: #ff0763;
+}
+
+input[type=submit]:active {
+    background-color: #1b263b;
+    border: 1px solid #ff0763;
+    color: #ff0763;
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    border: 1px solid #ff0763;
+    padding: 20px;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+
+
 footer {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;
@@ -119,9 +241,6 @@ footer {
     justify-items: center;
     align-items: center;
     margin-top: 80px;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
     width: 100%;
 }
 
