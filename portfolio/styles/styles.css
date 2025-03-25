@@ -115,7 +115,7 @@ nav a:hover {
 
 #contact-grid {
     display: grid;
-    grid-template: 1fr 1fr 1fr / 48% 4% 48%;
+    grid-template: auto auto / 48% 4% 48%;
     margin-top: 20px;
 }
 
@@ -124,8 +124,8 @@ nav a:hover {
     grid-row: 1/2;
     border: 1px solid #ff0763;
     background-color: #f1f1f1;
-    text-align: center;
     margin-bottom: 20px;
+    padding-left: 30px;
 }
 
 #contact-grid h1 {
@@ -163,26 +163,19 @@ nav a:hover {
 #social-platforms {
     grid-column: 3/4;
     grid-row: 2/4;
+    padding-left: 30px;
 }
 
-#social-platforms h1 {
-    text-align: center;
-}
 
 #social-platforms a {
     display: grid;
     grid-template-columns: 20% 80%;
     align-items: center;
-    justify-items: center;
 }
 
 #social-platforms a p {
     justify-self: left;
-    margin-left: 30px;
 }
-
-
-
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
